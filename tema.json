@@ -1,0 +1,145 @@
+{
+  "name": "Nord Light - Power BI Theme",
+  "background": "#e5e9f0",
+  "foreground": "#2e3440",
+  "tableAccent": "#5e81ac",
+  "textClasses": {
+  "title": {
+    "fontFace": "Segoe UI Semibold",
+    "fontSize": 14,
+    "color": "#2e3440"
+  },
+  "header": {
+    "fontFace": "Segoe UI Semibold",
+    "fontSize": 12,
+    "color": "#2e3440"
+  },
+  "label": {
+    "fontFace": "Segoe UI",
+    "fontSize": 11,
+    "color": "#2e3440"
+  },
+  "callout": {
+    "fontFace": "Segoe UI Semibold",
+    "fontSize": 28,
+    "color": "#5e81ac"
+  }
+}
+  "dataColors": [
+    "#5e81ac",
+    "#81a1c1",
+    "#88c0d0",
+    "#8fbcbb",
+    "#a3be8c",
+    "#ebcb8b",
+    "#d08770",
+    "#bf616a",
+    "#b48ead"
+  ],
+  "good": "#a3be8c",
+  "neutral": "#ebcb8b",
+  "bad": "#bf616a",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#eceff4" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#eceff4" } },
+            "radius": 4
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#2e3440" } },
+            "background": { "solid": { "color": "#eceff4" } }
+          }
+        ],
+        "header": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#2e3440" } },
+            "background": { "solid": { "color": "#d8dee9" } }
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#2e3440" } }
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#2e3440" } }
+          }
+        ],
+        "legend": [
+          {
+            "titleColor": { "solid": { "color": "#2e3440" } },
+            "labelColor": { "solid": { "color": "#3b4252" } },
+            "background": { "solid": { "color": "#e5e9f0" } }
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [
+          {
+            "gridVerticalColor": { "solid": { "color": "#d8dee9" } },
+            "gridHorizontalColor": { "solid": { "color": "#d8dee9" } },
+            "outlineColor": { "solid": { "color": "#d8dee9" } }
+          }
+        ],
+        "values": [
+          {
+            "color": { "solid": { "color": "#2e3440" } },
+            "backgroundColor": { "solid": { "color": "#e5e9f0" } }
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#2e3440" } },
+            "backgroundColor": { "solid": { "color": "#d8dee9" } }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#5e81ac" } }
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#3b4252" } }
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [
+          {
+            "fontColor": { "solid": { "color": "#2e3440" } },
+            "background": { "solid": { "color": "#e5e9f0" } }
+          }
+        ],
+        "header": [
+          {
+            "fontColor": { "solid": { "color": "#2e3440" } },
+            "background": { "solid": { "color": "#d8dee9" } }
+          }
+        ]
+      }
+    }
+  }
+}
